@@ -27,28 +27,28 @@ export function HomePage() {
                                 <div className="col mt-3">
                                     <div>
                                         <div className="card shadow" style={{ width: '10rem', height: '10rem', border: 'none' }} id="card">
-                                            <img src="https://desarrolloweb.com/storage/tag_images/actual/sT1RLpDHzInATuKnDUkwXhKoaIOrtS97gBtgiQ6M.png" className="card-img-top mx-auto d-block" alt="Imagen" style={{ height: '10rem', width: '10rem' }}></img>
+                                            <img src="pages\images\img1.png" className="card-img-top mx-auto d-block" alt="Imagen" style={{ height: '10rem', width: '10rem' }}></img>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col mt-3">
                                     <div>
                                         <div className="card shadow" style={{ width: '10rem', height: '10rem', border: 'none' }} id="card">
-                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" className="card-img-top mx-auto d-block" alt="Imagen" style={{ height: '10rem', width: '10rem' }}></img>
+                                            <img src="pages\images\img2.png" className="card-img-top mx-auto d-block" alt="Imagen" style={{ height: '10rem', width: '10rem' }}></img>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col mt-3">
                                     <div>
                                         <div className="card shadow" style={{ width: '10rem', height: '10rem', border: 'none' }} id="card">
-                                            <img src="https://img.freepik.com/premium-vector/bootstrap-icon-b-letter-logo_781017-7.jpg" className="card-img-top mx-auto d-block" alt="Imagen" style={{ height: '10rem', width: '10rem' }}></img>
+                                            <img src="pages\images\img3.png" className="card-img-top mx-auto d-block" alt="Imagen" style={{ height: '10rem', width: '10rem' }}></img>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col mt-3">
                                     <div>
                                         <div className="card shadow" style={{ width: '10rem', height: '10rem', border: 'none' }} id="card">
-                                            <img src="https://logo-download.com/wp-content/data/images/png/React-logo.png" className="card-img-top mx-auto d-block" alt="Imagen" style={{ height: '10rem', width: '10rem' }}></img>
+                                            <img src="pages\images\img4.png" className="card-img-top mx-auto d-block" alt="Imagen" style={{ height: '10rem', width: '10rem' }}></img>
                                         </div>
                                     </div>
                                 </div>
