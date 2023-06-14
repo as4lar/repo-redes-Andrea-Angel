@@ -39,7 +39,7 @@ export const Practica1 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='https://pin.it/7D8xmTM' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src='https://github.com/as4lar/repo-redes-Andrea-Angel/blob/main/images/ibero.png' style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
