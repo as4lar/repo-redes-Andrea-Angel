@@ -102,26 +102,14 @@ export const Practica3 = () => {
                         <div className="container text-center">
                             <div className="row">
                                 <div className="col">
-                                </div>
-                                <div className="col">
                                     <img src={img5} style={{ width: '400px', height: '400px' }}></img>
-                                </div>
-                                <div className="col">
-                                </div>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="container text-center">
-                            <div className="row">
-                                <div className="col">
                                 </div>
                                 <div className="col">
                                     <img src={img6} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
-                                <div className="col">
-                                </div>
                             </div>
                         </div>
+                        <br />
                         <h2 style={{ textAlign: 'center' }}>Videos de la práctica</h2>
                         <div className="container text-center">
                             <div className="row">
