@@ -39,7 +39,7 @@ export const Practica1 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='https://mms.businesswire.com/media/20211123005573/en/929867/23/vercel-logo-freelogovectors.net.jpg' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src='https://pin.it/7D8xmTM' style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
