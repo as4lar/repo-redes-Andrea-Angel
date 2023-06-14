@@ -1,6 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import "./estilos.css";
+import img1 from './images/img1.png';
+import img2 from './images/img2.png';
+import img3 from './images/img3.png';
+import img4 from './images/img4.png';
+import img5 from './images/img5.png';
+import img6 from './images/img6.png';
+
+
 
 export const Practica3 = () => {
 
@@ -39,7 +47,7 @@ export const Practica3 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica3\images\img1.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img1} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -51,7 +59,7 @@ export const Practica3 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica3\images\img2.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img2} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -63,7 +71,7 @@ export const Practica3 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica3\images\img3.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img3} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -81,7 +89,7 @@ export const Practica3 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica3\images\img4.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img4} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -96,7 +104,7 @@ export const Practica3 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica3\images\img5.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img5} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -108,7 +116,7 @@ export const Practica3 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica3\images\img6.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img6} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>

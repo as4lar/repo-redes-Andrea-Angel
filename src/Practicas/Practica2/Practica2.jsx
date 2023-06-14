@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import "./estilos.css";
+import img1 from './images/img1.png';
+import img2 from './images/img2.png';
+import img3 from './images/img3.png';
 export const Practica2 = () => {
 
     return (
@@ -39,7 +42,7 @@ export const Practica2 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica2\images\img1.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img1} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -57,7 +60,7 @@ export const Practica2 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica2\images\img2.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img2} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -72,7 +75,7 @@ export const Practica2 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica2\images\img3.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img3} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>

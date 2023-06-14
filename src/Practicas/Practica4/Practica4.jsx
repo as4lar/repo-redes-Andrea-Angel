@@ -1,7 +1,17 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import "./estilos.css";
-
+import img1 from './images/img1.png';
+import img2 from './images/img2.png';
+import img3 from './images/img3.png';
+import img4 from './images/img4.png';
+import img5 from './images/img5.png';
+import img6 from './images/img6.png';
+import img7 from './images/img7.png';
+import img8 from './images/img8.png';
+import img9 from './images/img9.png';
+import img10 from './images/img10.png';
+import img11 from './images/img11.png';
 export const Practica4 = () => {
 
     return (
@@ -39,7 +49,7 @@ export const Practica4 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img1.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img1} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -51,7 +61,7 @@ export const Practica4 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img2.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img2} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -64,7 +74,7 @@ export const Practica4 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img3.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img3} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -76,7 +86,7 @@ export const Practica4 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img4.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img4} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -89,7 +99,7 @@ export const Practica4 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img5.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img5} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -101,7 +111,7 @@ export const Practica4 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img6.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img6} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -119,7 +129,7 @@ export const Practica4 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img7.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img7} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -134,7 +144,7 @@ export const Practica4 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img8.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img8} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -145,13 +155,13 @@ export const Practica4 = () => {
                         <div className="container text-center">
                             <div className="row">
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img9.png' style={{ width: '330px', height: '330px' }}></img>
+                                    <img src={img9} style={{ width: '330px', height: '330px' }}></img>
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img10.png' style={{ width: '330px', height: '330px' }}></img>
+                                    <img src={img10} style={{ width: '330px', height: '330px' }}></img>
                                 </div>
                                 <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img11.png' style={{ width: '330px', height: '330px' }}></img>
+                                    <img src={img11} style={{ width: '330px', height: '330px' }}></img>
                                 </div>
                             </div>
                         </div>
@@ -162,17 +172,6 @@ export const Practica4 = () => {
                         <p className='p-li'>Utilizando un dashboard de ejemplo de PHP, desarrollar un sistema que mediante 3 botones conectados al NodeMCU enviemos un 1 al apretar el botón y un 0 al soltarlo. (Ejemplo GET, primero prueba el envió de datos al dashboard público en ingeniería-iberopuebla.mx, posteriormente contrata tu propio servidor, implementa la página del dashboard en el servidor y envía datos como evidencia, personaliza el dashboard con estilos propios)</p>
                         <p>A continuación se muestra el código de nuestro Arduino Uno, que actúa como el emisor de los datos. También se puede observar cómo está configurado para aumentar el número de pulsos que envía cada segundo que pasa.
                         </p>
-                        <div className="container text-center">
-                            <div className="row">
-                                <div className="col">
-                                </div>
-                                <div className="col">
-                                    <img src='src\Practicas\Practica4\images\img4.png' style={{ width: '400px', height: '400px' }}></img>
-                                </div>
-                                <div className="col">
-                                </div>
-                            </div>
-                        </div>
                         <h2 style={{ textAlign: 'center' }}>Videos de la práctica</h2>
                         <div className="container text-center">
                             <div className="row">
