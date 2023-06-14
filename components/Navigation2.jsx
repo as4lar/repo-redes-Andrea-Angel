@@ -2,12 +2,12 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from "react-router-dom";
 import "./styles.css";
-
+import ibero from './images/ibero.png';
 export const Navigation2 = () => {
     return (
         <header className='header'>
             <div className='logo'>
-                <img src='C:\Users\andss\Documents\tecmil_fswd\M4_React\listaprods\listadprods\components\images\ibero.png'></img>
+                <img src={ibero}></img>
             </div>
             <div>
                 <nav>
