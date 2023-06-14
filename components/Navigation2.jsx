@@ -7,7 +7,7 @@ export const Navigation2 = () => {
     return (
         <header className='header'>
             <div className='logo'>
-                <img src='components\images\ibero.png'></img>
+                <img src='C:\Users\andss\Documents\tecmil_fswd\M4_React\listaprods\listadprods\components\images\ibero.png'></img>
             </div>
             <div>
                 <nav>
