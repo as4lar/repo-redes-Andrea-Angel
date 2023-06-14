@@ -1,0 +1,20 @@
+h1 {
+  color: rgb(2, 2, 168) !important;
+  text-align: center;
+  font-size: 65px !important;
+}
+h2 {
+  color: rgb(2, 2, 168) !important;
+  text-align: left;
+}
+
+/* html,
+body {
+  background-color: #f5fffa !important;
+} */
+p {
+  color: rgb(2, 2, 168);
+}
+#card:hover {
+  transform: scale(1.1);
+}

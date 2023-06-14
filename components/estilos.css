@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #541cd6;
+}
+a {
+  font-size: 20px;
+}
+#card {
+  background-color: white;
+}
+
+#button {
+  background-color: #381cd6;
+  border: none;
+}
+h5 {
+  color: rgb(43, 43, 77) !important;
+  font-weight: bold;
+}
