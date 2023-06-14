@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import "./estilos.css";
+import img1 from './images/img1.png';
+
 
 export const Practica1 = () => {
 
@@ -39,7 +41,7 @@ export const Practica1 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src='https://github.com/as4lar/repo-redes-Andrea-Angel/blob/main/images/ibero.png' style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img1} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
