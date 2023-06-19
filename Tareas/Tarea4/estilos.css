@@ -1,0 +1,25 @@
+/* html,
+body {
+  background-color: #f5fffa !important;
+} */
+h1 {
+  color: rgb(27, 27, 73) !important;
+  text-align: center;
+  font-size: 65px !important;
+}
+h2 {
+  color: rgb(27, 27, 73) !important;
+}
+p,
+ul,
+h3,
+h4 {
+  color: rgb(2, 2, 168);
+  text-align: justify;
+}
+#card:hover {
+  transform: scale(1.1);
+}
+.p-li {
+  font-weight: bold;
+}

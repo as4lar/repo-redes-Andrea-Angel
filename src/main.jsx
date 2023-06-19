@@ -14,6 +14,7 @@ import Proyecto from "./Practicas/Proyecto.jsx";
 import Practica2 from "./Practicas/Practica2/Practica2.jsx";
 import Practica3 from "./Practicas/Practica3/Practica3.jsx";
 import Practica4 from "./Practicas/Practica4/Practica4.jsx";
+import Tarea4 from "../Tareas/Tarea4/Tarea4.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -32,7 +33,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           {/* Tareas */}
           <Route path="/tareas" element={<Tareas />} />
           <Route path="/tarea2" element={<Tarea2 />} />
-          <Route path="/tarea2" element={<Tarea2 />} />
+          <Route path="/tarea4" element={<Tarea4 />} />
           <Route path="/tarea2" element={<Tarea2 />} />
 
           <Route path="/proyecto" element={<Proyecto />} />

@@ -29,6 +29,16 @@ const tareas = [
         description: "Réplica de página de Intrauia realizada con Bootstrap, CSS y HTML",
         link: "https://tarea3redesdigitales.000webhostapp.com/"
     },
+    {
+        title: "Tarea 4",
+        description: "Lectura Modelo OSI vs TCP/IP",
+        link: "/tarea4"
+    },
+    {
+        title: "Tarea 3",
+        description: "Réplica de página de Intrauia realizada con Bootstrap, CSS y HTML",
+        link: "#"
+    },
 ];
 
 export function Tareas() {
