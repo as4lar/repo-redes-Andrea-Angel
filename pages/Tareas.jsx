@@ -35,9 +35,14 @@ const tareas = [
         link: "/tarea4"
     },
     {
-        title: "Tarea 3",
-        description: "Réplica de página de Intrauia realizada con Bootstrap, CSS y HTML",
-        link: "#"
+        title: "Tarea 5",
+        description: "Elementos de redes locales y matriz de interconexión",
+        link: "/tarea5"
+    },
+    {
+        title: "Tarea 6",
+        description: "Ejercicios en Packet Tracer",
+        link: "/tarea5"
     },
 ];
 
