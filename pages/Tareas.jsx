@@ -44,6 +44,16 @@ const tareas = [
         description: "Ejercicios en Packet Tracer",
         link: "/tarea5"
     },
+    {
+        title: "Tarea 8",
+        description: "Cuestionario JavaScript",
+        link: "/tarea8"
+    },
+    {
+        title: "Tarea 9",
+        description: "Cuestionario PHP",
+        link: "/tarea9"
+    },
 ];
 
 export function Tareas() {
