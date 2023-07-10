@@ -5,10 +5,25 @@ import "./estilos.css";
 export const Proyecto = () => {
 
     return (
-        <div className='container'>
+        <div className='container' >
             <h1>Proyecto Final</h1>
-            <div>
-                <button className="btn btn-primary">Sensor 1</button>
+            <div className='container'>
+                <h2 style={{ textAlign: 'center' }}>Sensor 1</h2>
+            </div>
+            <div className='container'>
+                <h2 style={{ textAlign: 'center' }}>Sensor 2</h2>
+            </div>
+            <div className='container'>
+                <h2 style={{ textAlign: 'center' }}>Sensor 3</h2>
+            </div>
+            <div className='container'>
+                <h2 style={{ textAlign: 'center' }}>Sensor 4</h2>
+            </div>
+            <div className='container'>
+                <h2 style={{ textAlign: 'center' }}>Sensor 5</h2>
+            </div>
+            <div className='container'>
+                <h2 style={{ textAlign: 'center' }}>Sensor 6</h2>
             </div>
         </div>
     )
