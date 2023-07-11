@@ -48,8 +48,9 @@ export const Tarea9 = () => {
                 <li className='question'>
                     Elabora un programa básico “Hola mundo” con PHP, describe el funcionamiento y elementos utilizados. Inserta el programa embebido con repplit en tu página.
                 </li>
-                <iframe width="100%" height="600px" src="https://replit.com/@andreassl/HelloWorld#index.php"></iframe>
-                <li className='question'>
+                <pre><code>&lt;?php
+                    echo "Hola Mundo";
+                    ?&gt;</code></pre>                <li className='question'>
                     ¿Para qué sirve la función echo en PHP?
                 </li>
                 <ul>
@@ -199,6 +200,28 @@ export const Tarea9 = () => {
                         .R se utiliza como método solo de read al abrir un archivo
                     </li>
                 </ul>
+                <li className='question'>
+                    Elabora un programa básico con PHP que permita crear un archivo de texto en el servidor, describe el funcionamiento y elementos utilizados.
+                    Inserta el programa embebido con repplit en tu pagina.
+                </li>
+                <ul>
+                    <li>
+                        Declaramos una variable que contenga el texto que deseamos colocar en el archivo de texto.
+                        <p>$contenido= Lo que se colocará</p>
+                    </li>
+                    <li>
+                        Creamos el archivo de texto utilizando la funcion fopen y le indicamos que será de escritura
+                        <p>$archivo=fopen(archivo.txt, w)</p>
+                    </li>
+                    <li>
+                        Escribimos el contenido dentro del archivo utilizando la funcion fwrite.
+                        <p>fwrite($archivo, $contenido)</p>
+                    </li>
+                    <li>Por último, por buenas prácticas cerramos el archivo luego de utilizarlo con la funcion fclose
+                        <p> fclose($file)</p>
+                    </li>
+                </ul>
+
                 <li className='question'>
                     ¿Cómo se utiliza el método Create/Write en el manejo de archivos con PHP?
                     . W se utiliza como método de escritura al abrir un archivo

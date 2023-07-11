@@ -108,7 +108,20 @@ export const Tarea8 = () => {
                     </li>
                 </ul>
                 <li className='question'>
-                    ¿Como se declaran variables en JS?                </li>
+                    Elabora en Replit un programa básico “Hola mundo” con JS, describe el funcionamiento y elementos utilizados.
+                </li>
+                <ul>
+                    <li>Primero se crea el archivo de JavaScript o podemos ponerlo directo en html utilizando la etiqueta script</li>
+                    <li>Utilizando la etiqueta de console.log ponemos el mensaje que queremos mostrar en la consola del navegador con comillas, en este caso:
+                        <p>console.log(Hola Mundo);</p>
+                    </li>
+                    <li>Para imprimir directamente en la página web, en el archivo HTML ponemos la etiqueta script y utilizamos la función document.write para imprimir y después colocamos el mensaje.
+                        <p>document.write(Hola Mundo);</p>
+                    </li>
+                </ul>
+                <li className='question'>
+                    ¿Como se declaran variables en JS?
+                </li>
                 <ul>
                     <li>
                         Este lenguaje de programación no tiene en cuenta los espacios en blanco y nuevas líneas, si tiene distinción entre mayúsculas y minúsculas, al crear una variable no es necesario definir el tipo de dato que almacenará, no se necesita terminar cada sentencia con punto y coma y pueden incluirse comentarios.

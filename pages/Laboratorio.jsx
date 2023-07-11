@@ -37,17 +37,17 @@ const practicas = [
     {
         title: "Practica 5: Cables de Red",
         description: "Conocer, identificar y comprobar el funcionamiento de los cables de red estructurado.",
-        link: "/practica4"
+        link: "/practica5"
     },
     {
         title: "Practica 6: Configuración de servidor para Red Local",
         description: "Conocer, investigar e identificar los pasos para configurar una red local y el acceso a recursos de un equipo en red.",
-        link: "/practica4"
+        link: "/practica6"
     },
     {
         title: "Practica 7: Redes de computadora con Switches y Cable",
         description: "Conocer, identificar y comprobar el funcionamiento de una red de área local utilizando switches y Router.",
-        link: "/practica4"
+        link: "/practica7"
     },
 ];
 export function Laboratorio() {

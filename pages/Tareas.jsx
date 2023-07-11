@@ -45,6 +45,11 @@ const tareas = [
         link: "/tarea5"
     },
     {
+        title: "Examen",
+        description: "Examen cotización de la Red en el IDIT",
+        link: "https://www.canva.com/design/DAFml1Bbwew/FWFMMd-7Wiyj_zbp97IJKw/edit?utm_content=DAFml1Bbwew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    {
         title: "Tarea 8",
         description: "Cuestionario JavaScript",
         link: "/tarea8"
