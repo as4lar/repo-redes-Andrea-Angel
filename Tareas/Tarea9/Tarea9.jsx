@@ -49,7 +49,7 @@ export const Tarea9 = () => {
                     Elabora un programa básico “Hola mundo” con PHP, describe el funcionamiento y elementos utilizados. Inserta el programa embebido con repplit en tu página.
                 </li>
                 <pre><code>&lt;?php
-                    echo "Hola Mundo";
+                    echo Hola Mundo;
                     ?&gt;</code></pre>                <li className='question'>
                     ¿Para qué sirve la función echo en PHP?
                 </li>

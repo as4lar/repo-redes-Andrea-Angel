@@ -21,6 +21,7 @@ import Tarea8 from "../Tareas/Tarea8/Tarea8.jsx";
 import Tarea9 from "../Tareas/Tarea9/Tarea9.jsx";
 import Practica6 from "./Practicas/Practica6/Practica6.jsx";
 import Practica7 from "./Practicas/Practica7/Practica7.jsx";
+import Tarea6 from "../Tareas/Tarea6/Tarea6.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -45,6 +46,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/tarea2" element={<Tarea2 />} />
           <Route path="/tarea4" element={<Tarea4 />} />
           <Route path="/tarea5" element={<Tarea5 />} />
+          <Route path="/tarea6" element={<Tarea6 />} />
           <Route path="/tarea8" element={<Tarea8 />} />
           <Route path="/tarea9" element={<Tarea9 />} />
           <Route path="/proyecto" element={<Proyecto />} />

@@ -3,6 +3,8 @@ import React from 'react';
 import "./estilos.css";
 import img1 from './images/img1.png';
 import img2 from './images/img2.png';
+import img3 from './images/img3.png';
+import img4 from './images/img4.png';
 export const Practica5 = () => {
 
     return (
@@ -79,12 +81,13 @@ export const Practica5 = () => {
                     </li>
                     <li>
                         <p className='p-li'>Armar 3 cables de red directos y probarlos</p>
+                        <p>Se armaron los 3 cables, en la foto adjuntada en la parte de cables cruzados pueden verse los seis cables totales que se realizaron</p>
                         <div className="container text-center">
                             <div className="row">
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src={img2} style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img3} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>
@@ -98,7 +101,7 @@ export const Practica5 = () => {
                                 <div className="col">
                                 </div>
                                 <div className="col">
-                                    <img src={img2} style={{ width: '400px', height: '400px' }}></img>
+                                    <img src={img4} style={{ width: '400px', height: '400px' }}></img>
                                 </div>
                                 <div className="col">
                                 </div>

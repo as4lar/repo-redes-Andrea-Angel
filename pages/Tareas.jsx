@@ -42,7 +42,7 @@ const tareas = [
     {
         title: "Tarea 6",
         description: "Ejercicios en Packet Tracer",
-        link: "/tarea5"
+        link: "/tarea6"
     },
     {
         title: "Examen",
