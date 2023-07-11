@@ -7,24 +7,20 @@ export const Proyecto = () => {
     return (
         <div className='container' >
             <h1>Proyecto Final</h1>
-            <div className='container'>
-                <h2 style={{ textAlign: 'center' }}>Sensor 1</h2>
+            <div className="container text-center">
+                <div className="row">
+                    <div className="col">
+                    </div>
+                    <div className="col">
+                        <button className='btn btn-primary'>
+                            <a href='https://reymundo-redes.000webhostapp.com/#proy' style={{ textDecoration: 'none', color: 'white' }}>Ir al proyecto final</a>
+                        </button>
+                    </div>
+                    <div className="col">
+                    </div>
+                </div>
             </div>
-            <div className='container'>
-                <h2 style={{ textAlign: 'center' }}>Sensor 2</h2>
-            </div>
-            <div className='container'>
-                <h2 style={{ textAlign: 'center' }}>Sensor 3</h2>
-            </div>
-            <div className='container'>
-                <h2 style={{ textAlign: 'center' }}>Sensor 4</h2>
-            </div>
-            <div className='container'>
-                <h2 style={{ textAlign: 'center' }}>Sensor 5</h2>
-            </div>
-            <div className='container'>
-                <h2 style={{ textAlign: 'center' }}>Sensor 6</h2>
-            </div>
+
         </div>
     )
 }
